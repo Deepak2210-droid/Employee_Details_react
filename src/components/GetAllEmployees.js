@@ -30,7 +30,7 @@ export default function BasicTable ()  {
         })();
     },[])
     console.log(data)
-   // const data=props
+   
   return <MaterialTable 
   title="Employee Table" 
   columns={columns} 
