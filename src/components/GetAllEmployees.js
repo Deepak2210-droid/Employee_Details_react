@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 
 
 const columns = [
-  { title: "Name", field: "firstName",},
+  { title: "Name", field: "firstName",}, 
   { title: "Surname", field: "lastName" },
   {title:"Email",field:"email"},
   {title:"Contact no",field:"telNum"},
@@ -42,7 +42,9 @@ export default function BasicTable ()  {
       color: '#FFF'
     },
     exportButton:true,
-    actionsColumnIndex: -1
+    actionsColumnIndex: -1,
+    filtering: true
+
   }}
 
   editable={{
