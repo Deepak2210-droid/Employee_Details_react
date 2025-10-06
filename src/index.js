@@ -9,7 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import BasicTable from './components/GetAllEmployees';
 import TestHooks, { ImageTable } from './Test/Hooks';
-window.React1 = require('react');
 ReactDOM.render(
  <BrowserRouter>
     <RootComponent/>
